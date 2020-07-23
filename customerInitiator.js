@@ -18,7 +18,7 @@ const id = {id: 302};
 const callback = (error, data) => {
   console.log('call to callback')
   if (error) console.log('sorry, there was an error', error)
-  else console.log('data', data, "favbook: ", data.favBook)
+  else console.log('DATA COMING BACK TO CUSTOMERINITIATOR', data, "favbook: ", data.favBook)
 }
 const getData = (functionName) => {
   if (functionName === 'CreateCustomer') return customer;

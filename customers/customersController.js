@@ -1,6 +1,7 @@
 const customersModel = require('./customersModel.js');
 const customersController = {};
 const customersControllerStub = require('../stubs/customersControllerStub.js')
+const caller = require('grpc-caller')
 
 // Controller create customer
 customersController.createCustomer = (sampleAdd, res, next) => {
@@ -59,7 +60,7 @@ customersController.getCustomers = (callback) => {
               name: result[0].name,
               age: result[0].age,
               address: result[0].address,
-              favBook: //try something here
+              favBook: result[0].favBookId
 
             }]
           }
