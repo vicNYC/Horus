@@ -29,7 +29,6 @@ booksController.getBookByID = (sampleID, callback, res, next) => {
   console.log('entered booksController.getBookByID')
   //Double check if the findOne syntax is correct
   const { id } = sampleID;
-  console.log('ID GETTING PASSED TO BOOKSCONTROLLER: ', sampleID)
   booksModel.findOne({id: id}, (error, result) => {
     if (error) {
       console.log(`Unable to find book by id ${error}`);
