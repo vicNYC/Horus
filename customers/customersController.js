@@ -29,7 +29,7 @@ customersController.deleteCustomer = (sampleDelete, res, next) => {
 
 
   // controller gets all customers in the book db
-customersController.getCustomers = (callback) => {
+customersController.getCustomers = async (callback) => {
 
 
     customersModel.find({},(err, result) => {
@@ -49,20 +49,21 @@ customersController.getCustomers = (callback) => {
         customerObj.name = result[0].name
         customerObj.age = result[0].age
         customerObj.address = result[0].address
-        customerObj.favBook = data
+        customerObj.favBook = data.favBook
         //arr.push(customerObj)
 
         callback (
           null, 
           {
-            names: [{
+            names: [/*customerObj*/
+              {
               id: result[0].id,
               name: result[0].name,
               age: result[0].age,
               address: result[0].address,
-              favBook: result[0].favBookId
-
-            }]
+              favBook: data
+            }
+          ]
           }
         )
       }   

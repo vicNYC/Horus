@@ -35,8 +35,8 @@ message CustomerRes {
     string name = 2;
     string age = 3;
     string address = 4;
-    int32 favBookId = 5;
-    //Book favBook = 5;
+    //int32 favBookId = 5;
+    Book favBook = 5;
 }
 
 message Empty {}
