@@ -5,7 +5,7 @@
 <!-- Slack Notifications -->
 Leave out the uncertainty of whether your application is running normally or offbeat with the integration of recieving slack notification. When processing time of any routes results in a time greater than two standard deviations from the norm, an automated slack message will be notified to your select channel or direct message. 
 
-In addtion, all routes processed will have the time taken stored in a non-relational database to have a running log of the historic times saved for further key performance metrics.
+In addtion, all routes processed will have the time taken stored in a non-relational database to have a running log of the historic times used in dynically updating the alerting threshold.
 
 **Metrics Shown in Notification**
 An alert will be sent out with these key metrics:
