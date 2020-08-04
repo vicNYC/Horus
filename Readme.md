@@ -9,10 +9,10 @@ In addtion, all routes processed will have the time taken stored in a non-relati
 
 **Metrics Shown in Notification**
 An alert will be sent out with these key metrics:
-  - specific functionality of application that is causing the issue
-  - time it took to fulfull the request
-  - trailing average time for functionality to complete
-  - standard deivation of the processing time for functionality to complete
+  * specific functionality of application that is causing the issue
+  * time it took to fulfull the request
+  * trailing average time for functionality to complete
+  * standard deivation of the processing time for functionality to complete
 
 *Sample Message*
 <p align="Left">
