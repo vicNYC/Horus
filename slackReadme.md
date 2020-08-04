@@ -26,3 +26,4 @@ An alert will be sent out with these key metrics:
 3) Create .env file and paste your Slack webhook url and Mongo database url
 
 
+
