@@ -8,7 +8,7 @@ Leave out the uncertainty of whether your application is running normally or off
 In addtion, all routes processed will have the time taken stored in a non-relational database to have a running log of the historic times used in dynically updating the alerting threshold.
 
 **Metrics Shown in Notification**
-An alert will be sent out with these key metrics:
+An alert will be sent out with these key metrics
     - specific functionality of application that is causing the issue
     - time it took to fulfull the request
     - trailing average time for functionality to complete
