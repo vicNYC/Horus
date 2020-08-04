@@ -3,7 +3,7 @@
 ## Alerting
 **Get Alerted by SLACK** 
 <!-- Slack Notifications -->
-Leave out the uncertainty of whether your application is running normally or offbeat with the integration of recieving slack notification. When the processing time of any routes results deviates from the ordinary processing time an automated slack message will be notified to your selected channel or direct message. 
+Leave out the uncertainty of whether your application is running normally or offbeat with the integration of recieving slack notification. When the processing time of any routes deviates from the ordinary processing time an automated slack message will be notified to your selected channel or direct message. 
 
 In addtion, all routes processed will have the time taken stored in a non-relational database to have a running log of historic times for key performance metrics.
 
