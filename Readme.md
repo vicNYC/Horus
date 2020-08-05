@@ -16,7 +16,7 @@ An alert will be sent out with these key metrics:
 
 *Sample Message*
 <p align="Left">
-  <img src="./slack.png" height=100/>
+  <img src="./slacksample.png" height=100/>
 </p>
 
 
